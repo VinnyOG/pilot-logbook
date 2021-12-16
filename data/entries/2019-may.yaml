@@ -1,0 +1,57 @@
+---
+date: 2019-05-17
+type: c172n
+tail: n733zk
+from: ksql
+to: ksql
+dayLandings: 1
+asel: 1.1
+groundReceived: 1.9
+dualReceived: 1.1
+total: 1.1
+instructor: victor garrido
+remarks: intro flight. climbs, descents, turns.
+...
+---
+date: 2019-05-20
+type: c172s
+tail: n53383
+from: ksql
+to: ksql
+dayLandings: 1
+asel: 1.7
+groundReceived: 1.4
+dualReceived: 1.7
+total: 1.7
+instructor: victor garrido
+remarks: climbs, descents, glide.
+...
+---
+date: 2019-05-23
+type: c172s
+tail: n35583
+from: ksql
+to: ksql
+dayLandings: 1
+asel: 1.9
+groundReceived: 1.2
+dualReceived: 1.9
+total: 1.9
+instructor: victor garrido
+remarks: power off glide, vx climb, traffic pattern.
+...
+---
+date: 2019-05-24
+type: c172s
+tail: n35583
+from: ksql
+to: ksql
+dayLandings: 1
+asel: 1.9
+hood: 0.3
+groundReceived: 1.1
+dualReceived: 1.9
+total: 1.9
+instructor: victor garrido
+remarks: instrument climb, descents, turns to heading, traffic pattern.
+...
