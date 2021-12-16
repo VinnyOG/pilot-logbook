@@ -1,0 +1,14 @@
+{
+  "name": "logbook-processor",
+  "version": "0.1.0",
+  "description": "turns data format into application format",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pawel",
+  "license": "ISC",
+  "dependencies": {
+    "yaml": "^1.10.2"
+  }
+}
