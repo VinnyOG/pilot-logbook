@@ -1,0 +1,107 @@
+---
+date: 2019-06-01
+type: c172n
+tail: n733zk
+from: sql
+to: sql
+stops:
+  - tcy
+  - lvk
+dayLandings: 5
+asel: 2.7
+groundReceived: 0.8
+dualReceived: 2.7
+total: 2.7
+instructor: mike venturino
+remarks: rectangular course, traffic pattern, slow flight, stalls
+...
+---
+date: 2021-06-04
+type: c172s
+tail: n290tw
+from: sql
+to: sql
+stops:
+  - c83
+dayLandings: 4
+asel: 2.2
+groundReceived: 0.6
+dualReceived: 2.2
+total: 2.2
+instructor: victor garrido
+remarks: slow flight, stalls, traffic pattern
+...
+---
+date: 2019-06-10
+type: c172s
+tail: n290tw
+from: sql
+to: sql
+stops:
+  - haf
+dayLandings: 4
+asel: 1.2
+groundReceived: 0.7
+dualReceived: 1.3
+total: 1.3
+instructor: vanelli?
+remarks: |
+  slow flight, power off stall, power on stall, normal landing and takeoff
+...
+---
+date: 2019-06-22
+type: c172s
+tail: n35583
+from: sql
+to: sql
+dayLandings: 3
+asel: 1.3
+groundReceived: 0.6
+dualReceived: 1.3
+total: 1.3
+instructor: vanelli?
+remarks: |
+  slow flight, power off stall, power on stall, x-wind landing and takeoff
+...
+---
+date: 2019-06-24
+type: c172s
+tail: n35583
+from: sql
+to: sql
+dayLandings: 2
+asel: 2
+groundReceived: 0.6
+dualReceived: 2
+total: 2
+instructor: vanelli?
+remarks: |
+  slow flight, power on stalls, power off stalls, rectangular course,
+  circle around a point
+...
+---
+date: 2019-06-25
+type: c172s
+tail: n35583
+from: sql
+to: sql
+dayLandings: 2
+asel: 1.8
+groundReceived: 0.6
+dualReceived: 1.8
+total: 1.8
+instructor: victor garrido
+remarks: |
+  slow flight, power off stall, power on stall, ???
+...
+---
+signature: pawel czarnecki
+logbook: 1
+page: 8
+dayLandings: 27
+asel: 17.9
+hood: 0.3
+groundReceived: 9.5
+dualReceived: 17.9
+total: 17.9
+...
