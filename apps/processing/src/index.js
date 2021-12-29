@@ -12,15 +12,21 @@ fs.readdir(entriesDir, (err, filenames) => {
     return
   }
   filenames.forEach((filename) => {
+    const date = new Date(filename.split('.')[0])
+    const dateText = date.toLocaleDateString('en-US', {
+      month: 'long',
+      year: 'numeric',
+    })
+    console.log(`Reading data for ${dateText}`)
     const file = fs.readFileSync(path.join(entriesDir, filename), 'utf-8')
     const docs = yaml.parseAllDocuments(file)
     docs.forEach((doc) => {
       const entry = doc.toJSON()
       if (entry.date) {
-        console.log(`Found a dated entry ${entry.date}`)
+        console.log(`\tFound a dated entry ${entry.date}`)
       }
       if (entry.signature) {
-        console.log(`Found a page end signed ${entry.signature}`)
+        console.log(`\tFound a page end signed ${entry.signature}`)
       }
     })
   })

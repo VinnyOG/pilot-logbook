@@ -1,0 +1,109 @@
+---
+date: 2019-08-08
+type: c172s
+tail: n290tw
+from: sql
+to: sql
+dayLandings: 4
+asel: 1.6
+groundReceived: 0.5
+dualReceived: 1.6
+total: 1.6
+instructor: victor garrido
+remarks: emergencies, landings
+...
+---
+date: 2019-08-13
+type: c172s
+tail: n35583
+from: sql
+to: sql
+stops:
+  - pao
+  - lvk
+dayLandings: 10
+asel: 1.9
+groundReceived: 1
+dualReceived: 1.9
+total: 1.9
+instructor: vanelli?
+remarks: normal, cross wind, take off and landing, go around
+...
+---
+date: 2019-08-14
+type: c172s
+tail: n35583
+from: sql
+to: sql
+stops:
+  - haf
+dayLandings: 16
+asel: 1.9
+groundReceived: 0.6
+dualReceived: 1.9
+total: 1.9
+instructor: vanelli?
+remarks: normal take off, landing, go around, traffic pattern
+...
+---
+date: 2019-08-15
+type: c172s
+tail: n35583
+from: sql
+to: sql
+stops:
+  - haf
+dayLandings: 15
+nightLandings: 1
+asel: 2.3
+night: 0.5
+groundReceived: 0.5
+dualReceived: 2.3
+total: 2.3
+instructor: victor garrido
+remarks: normal landings
+...
+---
+signature: pawel czarnecki
+logbook: 1
+page: 10
+dayLandings: 65
+nightLandings: 3
+asel: 18.2
+night: 1.5
+groundReceived: 6.5
+dualReceived: 18.2
+total: 18.2
+...
+---
+date: 2019-08-27
+type: c172s
+tail: n290tw
+from: sql
+to: sql
+stops:
+  - lvk
+dayLandings: 3
+asel: 1.8
+groundReceived: 0.5
+dualReceived: 1.8
+total: 1.8
+instructor: victor garrido
+remarks: slow flight, power off/on stalls, landings
+...
+---
+date: 2019-08-29
+type: c172n
+tail: n733zk
+from: sql
+to: sql
+stops:
+  - hwd
+dayLandings: 16
+asel: 1.6
+groundReceived: 0.4
+dualReceived: 1.6
+total: 1.6
+instructor: mike venturino
+remarks: normal and cross wind landings and takeoff, traffic pattern, intro to hwd
+...
